@@ -43,7 +43,6 @@ def upload_file():
     <html>
     <head>
     <title>Template app</title>
-    <link rel="stylesheet" href="static/www/basic.css">
     </head>
     <body>
     <h1>Template app</h2>
@@ -52,7 +51,6 @@ def upload_file():
     <form method=post enctype=multipart/form-data>
       <input type=file name=file>
       <input type=submit value=Upload><br><br>
-      Return results as JSON-file: <input type=checkbox name=json>
     </form>
     <br>
     <i>(You are doing great.)</i>
